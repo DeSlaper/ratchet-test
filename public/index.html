@@ -14,8 +14,10 @@
 <body>
 	<h1>Ratchet test</h1>
 	<div>
-		<form id="frm" onsubmit="return false;">
-			<input type="text" id="msg">
+		<form id="frm" method="POST" action="post.php">
+			<input type="text" id="cat" name="cat">
+			<br>
+			<input type="text" id="msg" name="msg">
 			<br>
 			<br>
 			<input type="submit">

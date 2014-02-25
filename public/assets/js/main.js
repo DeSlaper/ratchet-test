@@ -1,6 +1,6 @@
 var user_id = Math.random();
 
-var conn = new WebSocket('ws://localhost:8080');
+var conn = new WebSocket('ws://ratchet.dev:8080');
 
 conn.onopen = function(e) {
 	console.log('Connection enabled');
@@ -30,5 +30,5 @@ $(function()
 		$this.val('');
 	}
 
-	$(document).on('submit', '#frm', sendo);
+	// $(document).on('submit', '#frm', sendo);
 });
